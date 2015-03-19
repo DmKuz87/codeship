@@ -1,2 +1,2 @@
 # codeship
-codeship test
+codeship test push
