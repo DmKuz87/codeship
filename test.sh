@@ -19,4 +19,4 @@ then
 	heroku sharing:add Dmitry.Kuznetsov@returnonintelligence.com  --app ${APP_NAME}
 fi
 echo 'OK!'
-git push --force "https://${HEROKU_API_KEY}:${HEROKU_API_KEY}@git.heroku.com/${APP_NAME}.git" ${BRANCH_NAME}:master
+git push --force https://${HEROKU_API_KEY}:${HEROKU_API_KEY}@git.heroku.com/${APP_NAME}.git ${BRANCH_NAME}:master
